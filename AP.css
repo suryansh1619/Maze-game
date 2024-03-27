@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(135deg, rgb(55,162,206), rgb(133,123,173) );
+    font-family: 'Times New Roman', Times, serif;
+    height: fit-content;
+}
+
+img {
+    height: 55px;
+    width: 55px;
+}
+
+#portal-img {
+  padding: 2px;  
+}
+
+.buttons {
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    backdrop-filter: brightness(0.75);
+    font-weight: 600;
+    padding: 15px 65px;
+    margin: 10px 0px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    backdrop-filter: brightness(0.75)
+}
+
+#head-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+#difficulty-selector{
+    padding: 15px 38px 15px 55px;
+}
+
+.maze-rows {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.top {
+    border-top: 2px solid black;
+}
+
+.right {
+    border-right: 2px solid black;
+}
+
+.bottom {
+    border-bottom: 2px solid black;
+}
+
+.left {
+    border-left: 2px solid black;
+}
+
+.cols {
+    display: grid;
+}
